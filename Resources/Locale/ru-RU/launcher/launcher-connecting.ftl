@@ -1,6 +1,6 @@
 ### Connecting dialog when you start up the game
 
-connecting-title = Corvax Fallout 14
+connecting-title = DS Fallout 14
 connecting-exit = Выйти
 connecting-retry = Повторить
 connecting-reconnect = Переподключиться

@@ -97,5 +97,10 @@ job-name-survivor = Выживший
 job-description-survivor = Выживайте как можно дольше! Это никогда не кончается.
 job-name-zetan = Зетанский похититель
 job-description-zetan = Во имя материнского корабля! Исследуйте местное население для выполнения ваших целей.
+# Легион
+job-name-leg-recruit =  Рекрут Легиона
+job-name-leg-legionary = Легионер
+job-name-leg-vexillarius = Вексилларий Легиона
+job-name-leg-decanus = Декан Легиона
 # N14 Таймеры ролей #
 Survivor = Выживший

@@ -8,3 +8,5 @@ ent-NCRtrooperloadoutkits = неразобранный набор солдата
     .desc = Пожалуйста, выберите только 1.
 ent-NCRveteranrangerloadoutkits = неразобранный набор рейнджера ветерана НКР
     .desc = Пожалуйста, выберите только 1.
+ent-Legiontrooperloadoutkits = неразобранный набор легионера
+    .desc = Пожалуйста, выберите только 1.

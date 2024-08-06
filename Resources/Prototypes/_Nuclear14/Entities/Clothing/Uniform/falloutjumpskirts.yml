@@ -132,3 +132,14 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSkirts/Brotherhood/bosgold.rsi
   - type: Clothing
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSkirts/Brotherhood/bosgold.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: N14ClothingUniformLegion
+  name: legion uniform
+  description: A uniform worn by warriors of The Legion.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Uniforms/FalloutSkirts/legion.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Uniforms/FalloutSkirts/legion.rsi

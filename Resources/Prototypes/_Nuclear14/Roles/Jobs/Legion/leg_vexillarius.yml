@@ -1,0 +1,38 @@
+- type: job
+  id: LegVexillarius
+  setPreference: true
+  name: job-name-leg-vexillarius
+  description: job-description-leg-vexillarius
+  playTimeTracker: JobLegVexillarius
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Legion
+      time: 1 # 5 hours
+    - !type:WhitelistRequirement
+  weight: 5
+  startingGear: LegVexillariusGear
+  icon: JobIconDetective
+  supervisors: job-supervisors-leg-vexillarius
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: NpcFactionMember
+        factions:
+          - Legion
+
+- type: startingGear
+  id: LegVexillariusGear
+  equipment:
+    jumpsuit: N14ClothingUniformLegion
+    shoes: N14ClothingShoesBlack
+    outerClothing: N14ClothingOuterVexillariusArmor
+    head: N14ClothingHeadHatVexillarius
+    id: N14IDLegionSignaculumLegionary
+    hands: N14ClothingHandsGlovesLegion
+    back: N14ClothingBackpackMilitary
+    pocket1: Legiontrooperloadoutkits
+    belt: ClothingBeltQuiverSpear
+  innerClothingSkirt: N14ClothingUniformLegion #placeholder
+  satchel: N14ClothingBackpackSatchelMilitary
+  duffelbag: N14ClothingBackpackDuffelMilitary

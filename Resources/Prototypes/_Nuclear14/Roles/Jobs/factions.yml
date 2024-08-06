@@ -115,3 +115,13 @@
   color: "#33a1c1"
   roles:
   - Followers
+
+- type: department
+  id: Legion
+  description: department-Legion-description
+  color: "#d63a3a"
+  roles:
+  - LegRecruit
+  - LegLegionary
+  - LegDecanus
+  - LegVexillarius

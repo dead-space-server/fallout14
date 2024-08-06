@@ -24,3 +24,5 @@ ent-N14ClothingUniformJumpskirtBOSSilver = юбка Братства Стали
 ent-N14ClothingUniformJumpskirtBOSGold = униформа Братства Стали
     .desc = Золотая нашивка - знак отличия высших чинов Братства Стали.
     .suffix = золотой ранг
+ent-N14ClothingUniformLegion = униформа Легиона
+    .desc = Стандартная униформа солдат Легиона Цезаря. Не могу поверить, что мне приходится ставить её в файл с юбками.

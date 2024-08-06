@@ -1,0 +1,39 @@
+- type: job
+  id: LegLegionary
+  setPreference: true
+  name: job-name-leg-legionary
+  description: job-description-leg-legionary
+  playTimeTracker: JobLegLegionary
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Legion
+      time: 1 # 1 hour
+    - !type:WhitelistRequirement
+  weight: 5
+  startingGear: LegLegionaryGear
+  icon: JobIconSecurityOfficer
+  supervisors: job-supervisors-leg-legionary
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: NpcFactionMember
+        factions:
+          - Legion
+
+- type: startingGear
+  id: LegLegionaryGear
+  equipment:
+    jumpsuit: N14ClothingUniformLegion
+    shoes: N14ClothingShoesBlack
+    mask: N14ClothingMaskLegionRedBand
+    outerClothing: N14ClothingOuterLegionaryArmor
+    head: N14ClothingHeadHelmetLegionary
+    id: N14IDLegionSignaculumLegionary
+    hands: N14ClothingHandsGlovesLegion
+    back: N14ClothingBackpackMilitary
+    pocket1: Legiontrooperloadoutkits
+    belt: ClothingBeltQuiverSpear
+  innerClothingSkirt: N14ClothingUniformLegion #placeholder
+  satchel: N14ClothingBackpackSatchelMilitary
+  duffelbag: N14ClothingBackpackDuffelMilitary

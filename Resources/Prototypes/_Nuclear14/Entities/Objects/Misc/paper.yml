@@ -1,0 +1,229 @@
+- type: entity
+  name: Задание НКР
+  parent: Paper
+  id: PaperNCRAgressiveTask
+  description: "За Республику!"
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: paper
+      color: "#fefaf2"
+    - state: paper_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      color: "#fefaf2"
+      visible: false
+  - type: Paper
+    contentSize: 10000
+    escapeFormatting: false
+    content: book-ncr-agressive-task    
+    stampState: paper_stamp-syndicate
+    stampedBy:
+      - stampedColor: '#B23939FF'
+        stampedName: Штаб ВС НКР
+  - type: PaperVisuals
+    headerImagePath: "/Textures/_Nuclear14/Interface/Paper/paper_heading_ncr.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
+    backgroundModulate: "#fefaf2"
+    backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+    contentMargin: 32.0, 16.0, 32.0, 0.0
+
+- type: entity
+  name: Задание НКР
+  parent: Paper
+  id: PaperNCRNeutralTask
+  description: "За Республику!"
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: paper
+      color: "#fefaf2"
+    - state: paper_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      color: "#fefaf2"
+      visible: false
+  - type: Paper
+    contentSize: 10000
+    escapeFormatting: false 
+    stampState: paper_stamp-syndicate
+    stampedBy:
+      - stampedColor: '#B23939FF'
+        stampedName: Штаб ВС НКР
+    content: book-ncr-neutral-task
+  - type: PaperVisuals
+    headerImagePath: "/Textures/_Nuclear14/Interface/Paper/paper_heading_ncr.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
+    backgroundModulate: "#fefaf2"
+    backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+    contentMargin: 32.0, 16.0, 32.0, 0.0
+
+- type: entity
+  name: Задание НКР
+  parent: Paper
+  id: PaperNCRPeacefulTask
+  description: "За Республику!"
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: paper
+      color: "#fefaf2"
+    - state: paper_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      color: "#fefaf2"
+      visible: false
+  - type: Paper
+    contentSize: 10000
+    escapeFormatting: false  
+    stampState: paper_stamp-syndicate
+    stampedBy:
+      - stampedColor: '#B23939FF'
+        stampedName: Штаб ВС НКР
+    content: book-ncr-peaceful-task
+  - type: PaperVisuals
+    headerImagePath: "/Textures/_Nuclear14/Interface/Paper/paper_heading_ncr.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
+    backgroundModulate: "#fefaf2"
+    backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+    contentMargin: 32.0, 16.0, 32.0, 0.0
+
+- type: entity
+  name: Задание БС
+  parent: Paper
+  id: PaperBoSAgressiveTask
+  description: "Во славу Восточного Братства!"
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: paper
+      color: "#e6e6fa"
+    - state: paper_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      color: "#e6e6fa"
+      visible: false
+  - type: Paper
+    contentSize: 10000
+    escapeFormatting: false
+    stampState: paper_stamp-cap
+    stampedBy:
+      - stampedColor: '#445694FF'
+        stampedName: Бункер Альфа
+    content: book-bos-agressive-task
+  - type: PaperVisuals
+    headerImagePath: "/Textures/_Nuclear14/Interface/Paper/paper_heading_bos.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
+    backgroundModulate: "#e6e6fa"
+    backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+    contentMargin: 32.0, 16.0, 32.0, 0.0
+
+- type: entity
+  name: Задание БС
+  parent: Paper
+  id: PaperBoSNeutralTask
+  description: "Во славу Восточного Братства!"
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: paper
+      color: "#e6e6fa"
+    - state: paper_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      color: "#e6e6fa"
+      visible: false
+  - type: Paper
+    contentSize: 10000
+    escapeFormatting: false
+    stampState: paper_stamp-cap
+    stampedBy:
+      - stampedColor: '#445694FF'
+        stampedName: Бункер Альфа
+    content: book-bos-neutral-task
+  - type: PaperVisuals
+    headerImagePath: "/Textures/_Nuclear14/Interface/Paper/paper_heading_bos.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
+    backgroundModulate: "#e6e6fa"
+    backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+    contentMargin: 32.0, 16.0, 32.0, 0.0
+
+- type: entity
+  name: Задание БС
+  parent: Paper
+  id: PaperBoSPeacefulTask
+  description: "Во славу Восточного Братства!"
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: paper
+      color: "#e6e6fa"
+    - state: paper_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      color: "#e6e6fa"
+      visible: false
+  - type: Paper
+    contentSize: 10000
+    escapeFormatting: false
+    stampState: paper_stamp-cap
+    stampedBy:
+      - stampedColor: '#445694FF'
+        stampedName: Бункер Альфа
+    content: book-bos-peaceful-task
+  - type: PaperVisuals
+    headerImagePath: "/Textures/_Nuclear14/Interface/Paper/paper_heading_bos.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
+    backgroundModulate: "#e6e6fa"
+    backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+    contentMargin: 32.0, 16.0, 32.0, 0.0
+
+- type: entity
+  name: Бланк НКР
+  parent: Paper
+  id: PaperNCRBlank
+  description: "За бухгалтерию!"
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: paper
+      color: "#fefaf2"
+    - state: paper_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      color: "#fefaf2"
+      visible: false
+  - type: Paper
+    contentSize: 10000
+    escapeFormatting: false  
+  - type: PaperVisuals
+    headerImagePath: "/Textures/_Nuclear14/Interface/Paper/paper_heading_ncr.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
+    backgroundModulate: "#fefaf2"
+    backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+    contentMargin: 32.0, 16.0, 32.0, 0.0
+
+- type: entity
+  name: Бланк БС
+  parent: Paper
+  id: PaperBoSBlank
+  description: "Во славу бумажной работы!"
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: paper
+      color: "#e6e6fa"
+    - state: paper_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      color: "#e6e6fa"
+      visible: false
+  - type: Paper
+    contentSize: 10000
+    escapeFormatting: false
+  - type: PaperVisuals
+    headerImagePath: "/Textures/_Nuclear14/Interface/Paper/paper_heading_bos.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
+    backgroundModulate: "#e6e6fa"
+    backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+    contentMargin: 32.0, 16.0, 32.0, 0.0

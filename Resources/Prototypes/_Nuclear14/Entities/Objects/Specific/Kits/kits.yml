@@ -540,3 +540,92 @@
         amount: 2
       - id: N14Stimpak
       - id: BoxMRE
+
+#MARK: Legion Kits
+
+- type: entity
+  name: recruit kit
+  parent: KitBase
+  id: KitRecruit
+  description: A crate containing all a recruit-legionary needs to educate and help other legionaries.
+  components:
+  - type: Sprite
+    state: rifleman
+  - type: Item
+    size: Huge
+  - type: SpawnItemsOnUse
+    items:
+      - id: N14weapon9mmSMG
+      - id: N14MagazineSMG9mm
+      - id: N14MagazineSMG9mm
+      - id: N14MagazineSMG9mm
+      - id: N14MagazineSMG9mm
+      - id: N14WeaponPistol9mm
+      - id: N14MagazinePistol9mm
+      - id: N14Machete
+      - id: N14WastelandTribalJavelin
+      - id: N14WastelandTribalJavelin
+      - id: N14ChemicalSyringeAntidote
+      - id: N14Bandage
+      - id: Flare
+      - id: Flare
+      - id: Flare
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  name: legionary-scout kit
+  parent: KitBase
+  id: KitLegionScout
+  description: A crate containing all a legionary-scout needs for recon and killing!
+  components:
+  - type: Sprite
+    state: rifleman
+  - type: Item
+    size: Huge
+  - type: SpawnItemsOnUse
+    items:
+      - id: N14WeaponSubMachineGun10mm
+      - id: N14MagazineSMG10mm
+      - id: N14MagazineSMG10mm
+      - id: N14MagazineSMG10mm
+      - id: N14WeaponPistol9mm
+      - id: N14MagazinePistol9mm
+      - id: N14Machete
+      - id: N14WastelandTribalJavelin
+      - id: RadioHandheld
+      - id: N14ChemicalSyringeAntidote
+      - id: N14Bandage
+      - id: Flare
+      - id: Flare
+      - id: Flare
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  name: legionary-rifleman kit
+  parent: KitBase
+  id: KitLegionRifleman
+  description: A crate containing all a legionary needs to patrol the wasteland.
+  components:
+  - type: Sprite
+    state: rifleman
+  - type: Item
+    size: Huge
+  - type: SpawnItemsOnUse
+    items:
+      - id: N14WeaponSniperHunting
+      - id: MagazineBox308
+      - id: MagazineBox308
+      - id: N14WeaponPistol9mm
+      - id: N14MagazinePistol9mm
+      - id: N14Machete
+      - id: N14WastelandTribalJavelin
+      - id: N14WastelandTribalJavelin
+      - id: N14ChemicalSyringeAntidote
+      - id: N14Bandage
+      - id: Flare
+      - id: Flare
+      - id: Flare
+    sound:
+      path: /Audio/Effects/unwrap.ogg

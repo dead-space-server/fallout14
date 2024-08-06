@@ -1,0 +1,11 @@
+- type: playTimeTracker
+  id: JobLegVexillarius
+
+- type: playTimeTracker
+  id: JobLegRecruit
+
+- type: playTimeTracker
+  id: JobLegLegionary
+
+- type: playTimeTracker
+  id: JobLegDecanus

@@ -348,7 +348,7 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetmarine
   id: N14ClothingHeadHatRangerHelmetEliteOld
-  name: worn elite ranger combat helmet
+  name: elite ranger combat helmet
   description: An old combat helmet seen in the divide, repurposed for higher ranking Rangers.
   components:
   - type: Sprite
@@ -434,5 +434,27 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/midwest-brotherhood/bosheadset.rsi
   - type: Clothing
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/midwest-brotherhood/bosheadset.rsi
-  - type: ClothingSpecialModifier
-    intelligenceModifier: 1
+
+#Legion
+
+- type: entity
+  parent: N14ClothingHeadHatBaseHelmetMetal
+  id: N14ClothingHeadHelmetDecanus
+  name: decanus helmet
+  description: A helmet of The Legion's decanus
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Head/FalloutHelmets/decanus.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Head/FalloutHelmets/decanus.rsi
+
+- type: entity
+  parent: N14ClothingHeadHatBaseHelmetMetal
+  id: N14ClothingHeadHelmetLegionary
+  name: legionary helmet
+  description: A standard issue helmet of a legionary
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Head/FalloutHelmets/legionary.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Head/FalloutHelmets/legionary.rsi

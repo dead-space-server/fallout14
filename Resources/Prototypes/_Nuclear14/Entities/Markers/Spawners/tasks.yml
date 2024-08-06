@@ -1,0 +1,35 @@
+- type: entity
+  name: Спавнер задания НКР
+  id: NCRTaskSpawner
+  parent: MarkerBase
+  suffix: 100
+  components:
+    - type: Sprite
+      layers:
+        - state: red
+    - type: RandomSpawner
+      prototypes:
+        - PaperNCRAgressiveTask
+        - PaperNCRNeutralTask
+        - PaperNCRPeacefulTask
+      chance: 1
+  placement:
+    mode: AlignTileAny
+
+- type: entity
+  name: Спавнер задания БС
+  id: BoSTaskSpawner
+  parent: MarkerBase
+  suffix: 100
+  components:
+    - type: Sprite
+      layers:
+        - state: red
+    - type: RandomSpawner
+      prototypes:
+        - PaperBoSAgressiveTask
+        - PaperBoSNeutralTask
+        - PaperBoSPeacefulTask
+      chance: 1
+  placement:
+    mode: AlignTileAny

@@ -116,3 +116,35 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+
+# Dead Space start
+
+- type: entity
+  parent: ClothingMaskBase
+  id: N14ClothingMaskLegionRedBand
+  name: red mask
+  suffix: Generic
+  description: A short red scarf, covering a mouth of a legionary.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Mask/Bandanas/redband.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Mask/Bandanas/redband.rsi
+  - type: BreathMask
+  - type: IngestionBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: N14ClothingMaskLegionBlackBand
+  name: black mask
+  suffix: Generic
+  description: A short black scarf, covering a mouth of a recruit-legionary.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Mask/Bandanas/blackband.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Mask/Bandanas/blackband.rsi
+  - type: BreathMask
+  - type: IngestionBlocker
+
+# Dead Space end

@@ -1,0 +1,5 @@
+- type: entity
+  save: false
+  name: supermutant
+  parent: [N14BaseMobSMutant, BaseMob]
+  id: N14MobSMutant

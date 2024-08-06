@@ -1,0 +1,36 @@
+- type: entity
+  parent: MobHuman
+  id: MobLegDecanus
+  name: LegDecanus
+  components:
+    - type: RandomHumanoidAppearance
+      randomizeName: true
+    - type: Loadout
+      prototypes: [LegDecanusGear]
+    - type: NpcFactionMember
+      factions:
+      - Legion
+
+- type: entity
+  parent: MobLegDecanus
+  id: MobLegRecruit
+  name: LegRecruit
+  components:
+    - type: Loadout
+      prototypes: [LegRecruitGear]
+
+- type: entity
+  parent: MobLegDecanus
+  id: MobLegLegionary
+  name: LegLegionary
+  components:
+    - type: Loadout
+      prototypes: [LegLegionaryGear]
+
+- type: entity
+  parent: MobLegDecanus
+  id: MobLegVexillarius
+  name: LegVexillarius
+  components:
+    - type: Loadout
+      prototypes: [LegVexillariusGear]

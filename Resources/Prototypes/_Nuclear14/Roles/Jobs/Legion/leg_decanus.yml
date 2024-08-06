@@ -1,0 +1,39 @@
+- type: job
+  id: LegDecanus
+  setPreference: true
+  name: job-name-leg-decanus
+  description: job-description-leg-decanus
+  playTimeTracker: JobLegDecanus
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Legion
+      time: 1 # 10 hours
+    - !type:WhitelistRequirement
+  weight: 5
+  startingGear: LegDecanusGear
+  icon: JobIconWarden
+  supervisors: job-supervisors-leg-decanus
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: NpcFactionMember
+        factions:
+          - Legion
+
+- type: startingGear
+  id: LegDecanusGear
+  equipment:
+    jumpsuit: N14ClothingUniformLegion
+    shoes: N14ClothingShoesBlack
+    mask: N14ClothingMaskLegionRedBand
+    outerClothing: N14ClothingOuterDecanusArmor
+    head: N14ClothingHeadHelmetDecanus
+    id: N14IDLegionSignaculumDecanus
+    hands: N14ClothingHandsGlovesLegion
+    back: N14ClothingBackpackMilitary
+    pocket1: Legiontrooperloadoutkits
+    belt: ClothingBeltQuiverSpear
+  innerClothingSkirt: N14ClothingUniformLegion #placeholder
+  satchel: N14ClothingBackpackSatchelMilitary
+  duffelbag: N14ClothingBackpackDuffelMilitary

@@ -375,8 +375,6 @@
     spawned:
     - id: N14MaterialYaoguaiHide
       amount: 1
-    - id: N14FoodMeatYaoguai
-      amount: 2
   - type: DamageStateVisuals
     states:
       Alive:
@@ -494,7 +492,7 @@
     makeSentient: true
     name: deathclaw
     description: |
-      Ты хитрый кровожадный убийца. Убей их всех.
+      You're a smart killer. Use tactics to kill everyone.
   - type: NoSlip
   - type: Reproductive
     breedChance: 0.05
@@ -622,7 +620,7 @@
   - type: Butcherable
     spawned:
     - id: N14FoodMeatBrahmin
-      amount: 4
+      amount: 5
     - id: N14MaterialBrahminHide
       amount: 1
       prob: 0.95
@@ -685,7 +683,7 @@
   - type: Butcherable
     spawned:
     - id: N14FoodMeatBighorner
-      amount: 4
+      amount: 5
   - type: SolutionContainerManager
     solutions:
       udder:
@@ -734,7 +732,7 @@
   - type: Butcherable
     spawned:
     - id: N14FoodMeatRadstag
-      amount: 4
+      amount: 5
   - type: SolutionContainerManager
     solutions:
       udder:

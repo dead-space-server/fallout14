@@ -10,6 +10,7 @@ department-Townsfolk = Горожане
 department-Followers = Последователи Апокалипсиса
 department-Zetan = Дзетанцы
 department-Rangers = Рейнджеры
+department-Legion = Легион Цезаря
 # Descriptions
 department-BrotherhoodMidwest-description = Среднезападное отделение Братства Стали.
 department-BrotherhoodWashington-description = Вашингтонское отделение Братства Стали.
@@ -22,3 +23,4 @@ department-Wastelander-description = Жители пустошей, обитаю
 department-Townsfolk-description = Горожане из местного города, пытающиеся поддерживать порядок.
 department-Followers-description = Последователи Апокалипсиса на гуманитарной миссии.
 department-Zetan-description = Дзетанские исследователи, призванные исследовать Вас!
+departmet-Legion-description = Отряд легионеров-завоевателей, отправленный Легионом Цезаря.

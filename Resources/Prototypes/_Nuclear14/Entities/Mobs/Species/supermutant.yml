@@ -1,0 +1,91 @@
+- type: entity
+  save: false
+  name: supermutant
+  id: N14BaseMobSMutant
+  parent: BaseMobHuman
+  noSpawn: true
+  components:
+  - type: HumanoidAppearance
+    species: Supermutant
+  - type: Icon
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: full
+  - type: Sprite
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    netsync: false
+    noRot: true
+    drawdepth: Mobs
+    layers:
+      - map: [ "enum.HumanoidVisualLayers.Chest" ]
+      - map: [ "enum.HumanoidVisualLayers.Head" ]
+      - map: [ "enum.HumanoidVisualLayers.Snout" ]
+      - map: [ "enum.HumanoidVisualLayers.Eyes" ]
+      - map: [ "enum.HumanoidVisualLayers.RArm" ]
+      - map: [ "enum.HumanoidVisualLayers.LArm" ]
+      - map: [ "enum.HumanoidVisualLayers.RLeg" ]
+      - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+      - shader: StencilClear
+        sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+        state: l_leg
+      - shader: StencilMask
+        map: [ "enum.HumanoidVisualLayers.StencilMask" ]
+        sprite: Mobs/Customization/masking_helpers.rsi
+        state: female_full
+        visible: false
+      - map: [ "jumpsuit" ]
+      - map: [ "enum.HumanoidVisualLayers.LHand" ]
+      - map: [ "enum.HumanoidVisualLayers.RHand" ]
+      - map: [ "enum.HumanoidVisualLayers.LFoot" ]
+      - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+      - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
+        color: "#ffffff"
+        sprite: Objects/Misc/handcuffs.rsi
+        state: body-overlay-2
+        visible: false
+      - map: [ "id" ]
+      - map: [ "gloves" ]
+      - map: [ "shoes" ]
+      - map: [ "ears" ]
+      - map: [ "outerClothing" ]
+      - map: [ "eyes" ]
+      - map: [ "belt" ]
+      - map: [ "neck" ]
+      - map: [ "back" ]
+      - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
+      - map: [ "enum.HumanoidVisualLayers.Hair" ]
+      - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
+      - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
+      - map: [ "enum.HumanoidVisualLayers.Tail" ]
+      - map: [ "mask" ]
+      - map: [ "head" ]
+      - map: [ "pocket1" ]
+      - map: [ "pocket2" ]
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Supermutant
+  - type: PassiveDamage # Ghoul passive regen. Assuming one damage type, comes out to about 100 damage in 5 minutes. Not enough to really affect during combat, but sure makes them need a lot less stimpaks.
+    allowedStates:
+    - Alive
+    damageCap: 200
+    damage:
+      types:
+        Heat: -0.5
+        Radiation: 0.0146 # 50 rads per hour. Chem dependant
+      groups:
+        Brute: -0.5
+        Toxin: -0.05
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      150: Critical
+      200: Dead
+  # - type: Special
+
+- type: entity
+  save: false
+  parent: MobHumanDummy
+  id: N14MobSMutantDummy
+  noSpawn: true
+  components:
+  - type: HumanoidAppearance
+    species: Supermutant

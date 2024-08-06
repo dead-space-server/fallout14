@@ -1,0 +1,83 @@
+﻿- type: entity
+  parent: FaxMachineBase
+  id: FaxMachineNCR
+  name: радиотелеграф НКР
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Structures/Machines/Telegraphs/ncrtelegraph.rsi
+    drawdepth: SmallObjects
+    layers:
+    - state: icon
+      map: ["base"]
+  - type: FaxMachine
+    name: "Аванпост Вест-Кемп"
+    notifyAdmins: true
+  - type: Icon
+    sprite: _Nuclear14/Structures/Machines/Telegraphs/ncrtelegraph.rsi
+    state: icon
+  - type: GenericVisualizer
+  visuals:
+    enum.PowerDeviceVisuals.Powered:
+      base:
+        True: { state: idle }
+        False: { state: icon }
+    enum.FaxMachineVisuals.VisualState:
+      base:
+        Inserting: { state: inserting }
+        Printing: { state: printing }
+
+- type: entity
+  parent: FaxMachineBase
+  id: FaxMachineBoS
+  name: телеграф Братства Стали
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Structures/Machines/Telegraphs/bostelegraph.rsi
+    drawdepth: SmallObjects
+    layers:
+    - state: icon
+      map: ["base"]
+  - type: FaxMachine
+    name: "Бункер Тета"
+    notifyAdmins: true
+  - type: Icon
+    sprite: _Nuclear14/Structures/Machines/Telegraphs/bostelegraph.rsi
+    state: icon
+  - type: GenericVisualizer
+  visuals:
+    enum.PowerDeviceVisuals.Powered:
+      base:
+        True: { state: idle }
+        False: { state: icon }
+    enum.FaxMachineVisuals.VisualState:
+      base:
+        Inserting: { state: inserting }
+        Printing: { state: printing }
+
+- type: entity
+  parent: FaxMachineBase
+  id: FaxMachineBoSHQ
+  name: NCR HQ radiotelegraph
+  components:
+  - type: Sprite
+    layers:
+      - state: icon
+        map: [ "base" ]
+        color: "#a05c5c"
+  - type: FaxMachine
+    name: "Штаб ВС НКР"
+    notifyAdmins: true
+
+- type: entity
+  parent: FaxMachineBase
+  id: FaxMachineNCRHQ
+  name: BoS HQ telegraph
+  components:
+  - type: Sprite
+    layers:
+      - state: icon
+        map: [ "base" ]
+        color: "#878787"
+  - type: FaxMachine
+    name: "Бункер Альфа"
+    notifyAdmins: true

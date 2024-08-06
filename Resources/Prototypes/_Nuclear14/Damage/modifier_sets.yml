@@ -58,3 +58,16 @@
     Poison: 0.9
   flatReductions:
     Radiation: 5
+
+- type: damageModifierSet
+  id: Supermutant
+  coefficients:
+    Blunt: 1
+    Slash: 1
+    Piercing: 1
+    Cold: 1
+    Poison: 0.2
+    Cellular: 0
+    Radiation: 0
+    Asphyxiation: 1
+    Bloodloss: 1

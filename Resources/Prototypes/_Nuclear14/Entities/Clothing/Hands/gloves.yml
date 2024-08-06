@@ -184,3 +184,18 @@
     fiberMaterial: fibers-leather
     fiberColor: fibers-brown
   - type: FingerprintMask
+
+- type: entity
+  parent: ClothingHandsButcherable
+  id: N14ClothingHandsGlovesLegion
+  name: fingerless leather gloves
+  description: Gloves made out of wasteland animal hides, tanned and stitched together without any fingers.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Hands/Gloves/NCRgloves.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Hands/Gloves/NCRgloves.rsi
+  - type: Fiber
+    fiberMaterial: fibers-leather
+    fiberColor: fibers-brown
+  - type: FingerprintMask

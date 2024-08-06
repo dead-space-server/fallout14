@@ -610,3 +610,54 @@
     layers:
       - state: green
       - state: passenger # TODO make new icons
+
+# Legion
+
+- type: entity
+  id: N14SpawnPointLegRecruit
+  parent: N14SpawnPointWastelander
+  name: Legion recruit
+  components:
+  - type: SpawnPoint
+    job_id: LegRecruit
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger # TODO make new icons
+
+- type: entity
+  id: N14SpawnPointLegLegionary
+  parent: N14SpawnPointWastelander
+  name: Legionary
+  components:
+  - type: SpawnPoint
+    job_id: LegLegionary
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger # TODO make new icons
+
+- type: entity
+  id: N14SpawnPointLegDecanus
+  parent: N14SpawnPointWastelander
+  name: Legion decanus
+  components:
+  - type: SpawnPoint
+    job_id: LegDecanus
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger # TODO make new icons
+
+- type: entity
+  id: N14SpawnPointLegVexillarius
+  parent: N14SpawnPointWastelander
+  name: Legion vexillarius
+  components:
+  - type: SpawnPoint
+    job_id: LegVexillarius
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger # TODO make new icons
+

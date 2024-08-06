@@ -1,0 +1,150 @@
+- type: species
+  id: Supermutant
+  name: species-name-supermutant
+  roundStart: false
+  prototype: N14MobSMutant
+  sprites: N14MobSMutantSprites
+  markingLimits: MobSMutantMarkingLimits
+  dollPrototype: N14MobSMutantDummy
+  skinColoration: HumanToned
+  minHeight: 1.2
+  defaultHeight: 1.35
+  maxHeight: 1.5
+  minWidth: 1.2
+  defaultWidth: 1.35
+  maxWidth: 1.5
+
+# The lack of a layer means that
+# this person cannot have round-start anything
+# applied to that layer. It has to instead
+# be defined as a 'custom base layer'
+# in either the mob's starting marking prototype,
+# or it has to be added in C#.
+- type: speciesBaseSprites
+  id: N14MobSMutantSprites
+  sprites:
+    Head: N14MobSMutantHead
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Chest: N14MobSMutantTorso
+    Eyes: MobHumanoidEyes
+    LArm: N14MobSMutantLArm
+    RArm: N14MobSMutantRArm
+    LHand: N14MobSMutantLHand
+    RHand: N14MobSMutantRHand
+    LLeg: N14MobSMutantLLeg
+    RLeg: N14MobSMutantRLeg
+    LFoot: N14MobSMutantLFoot
+    RFoot: N14MobSMutantRFoot
+    
+- type: markingPoints
+  id: MobSMutantMarkingLimits
+  points:
+    Hair:
+      points: 0
+      required: false
+    FacialHair:
+      points: 0
+      required: false
+    Snout:
+      points: 1
+      required: false
+    Tail:
+      points: 0
+      required: false
+    HeadTop: # the cat ear joke
+      points: 0
+      required: false
+    Chest:
+      points: 1
+      required: false
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantHead
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantHeadMale
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantHeadFemale
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantTorso
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantTorsoMale
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantTorsoFemale
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantLLeg
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantLArm
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantLHand
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantLFoot
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantRLeg
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantRArm
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantRHand
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: N14MobSMutantRFoot
+  baseSprite:
+    sprite: _Nuclear14/Mobs/Species/Supermutant/parts.rsi
+    state: r_foot

@@ -686,3 +686,40 @@
   id: N14HolotapeQuestNCRplans
   name: NCR plans holotape # NCR secure objective
   description: A holotape containing battle plans and base locations for the NCR.
+
+# Dead Space start
+# Legion
+
+#Legion
+
+- type: entity
+  parent: N14IDPassportBlank
+  id: N14IDLegionSignaculumLegionary
+  name: legionary signaculum
+  description: A metal badge worn by a legionary.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Objects/Misc/identification.rsi
+    state: leg_aux
+
+- type: entity
+  parent: N14IDPassportBlank
+  id: N14IDLegionSignaculumRecruit
+  name: recruit signaculum
+  description: A little metal dagger worn by a recruit of The Legion.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Objects/Misc/identification.rsi
+    state: leg_recruit
+
+- type: entity
+  parent: N14IDPassportBlank
+  id: N14IDLegionSignaculumDecanus
+  name: decanus signaculum
+  description: A metal badge worn by a decanus.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Objects/Misc/identification.rsi
+    state: leg_veteran
+
+# Dead Space end

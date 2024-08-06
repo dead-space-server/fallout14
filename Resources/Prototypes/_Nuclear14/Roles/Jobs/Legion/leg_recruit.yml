@@ -1,0 +1,36 @@
+- type: job
+  id: LegRecruit
+  setPreference: true
+  name: job-name-leg-recruit
+  description: job-description-leg-recruit
+  playTimeTracker: JobLegRecruit
+  requirements:
+    - !type:WhitelistRequirement
+  weight: 5
+  startingGear: LegRecruitGear
+  icon: JobIconSecurityCadet
+  supervisors: job-supervisors-legionary
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: NpcFactionMember
+        factions:
+          - Legion
+
+- type: startingGear
+  id: LegRecruitGear
+  equipment:
+    jumpsuit: N14ClothingUniformLegion
+    shoes: N14ClothingShoesBlack
+    mask: N14ClothingMaskLegionBlackBand
+    outerClothing: N14ClothingOuterLegionaryArmor
+    head: N14ClothingHeadHelmetLegionary
+    id: N14IDLegionSignaculumRecruit
+    hands: N14ClothingHandsGlovesLegion
+    back: N14ClothingBackpackMilitary
+    pocket1: KitRecruit
+    belt: ClothingBeltQuiverSpear
+  innerClothingSkirt: N14ClothingUniformLegion #placeholder
+  satchel: N14ClothingBackpackSatchelMilitary
+  duffelbag: N14ClothingBackpackDuffelMilitary

@@ -152,6 +152,27 @@
       - key: enum.UndecidedLoadoutBackpackUIKey.Key
         type: UndecidedLoadoutBackpackBoundUserInterface
 
+- type: entity
+  id: Legiontrooperloadoutkits
+  name: Undecided Legionary Loadout Kit
+  description: please only take one
+  parent: BaseItem
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Objects/Misc/kits.rsi
+    state: rifleman
+  - type: UndecidedLoadoutBackpack
+    transformAfterSelect: AlwaysPoweredWallLight
+    possibleSets:
+    - LegScoutSet
+    - LegRiflemanSet
+  - type: ActivatableUI
+    key: enum.UndecidedLoadoutBackpackUIKey.Key
+  - type: UserInterface
+    interfaces:
+      - key: enum.UndecidedLoadoutBackpackUIKey.Key
+        type: UndecidedLoadoutBackpackBoundUserInterface
+
 #MARK: Trooper Kits
 
 - type: UndecidedLoadoutBackpackSet
@@ -422,3 +443,28 @@
     state: rifleman
   content:
   - KitCOAssaultBoSMidwest
+
+# Dead Space start
+#MARK: Legion Kits
+
+- type: UndecidedLoadoutBackpackSet
+  id: LegScoutSet
+  name: undecided-loadout-category-legion-scout-name
+  description: undecided-loadout-category-legion-scout-description
+  sprite:
+    sprite: _Nuclear14/Objects/Misc/kits.rsi
+    state: rifleman
+  content:
+ - KitLegionScout
+
+- type: UndecidedLoadoutBackpackSet
+  id: LegRiflemanSet
+  name: undecided-loadout-category-legion-rifleman-name
+  description: undecided-loadout-category-legion-rifleman-description
+  sprite:
+    sprite: _Nuclear14/Objects/Misc/kits.rsi
+    state: rifleman
+  content:
+  - KitLegionRifleman
+
+# Dead Space end

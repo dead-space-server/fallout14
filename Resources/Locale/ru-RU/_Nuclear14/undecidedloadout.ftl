@@ -219,7 +219,7 @@ undecided-loadout-category-legion-rifleman-description =
     3 метательных копья, 9мм пистолет,
     9мм магазин, мачете и набор для выживания
 
-undecided-loadout-category-legion-partol-name = Набор легионера-патрульного
+undecided-loadout-category-legion-patrol-name = Набор легионера-патрульного
 undecided-loadout-category-legion-patrol-description =
     Ящик со всем необходимым для патрулирования пустоши.
     Включает: 1 ковбойский карабин, ящик патронов .44, 

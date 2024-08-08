@@ -152,27 +152,6 @@
       - key: enum.UndecidedLoadoutBackpackUIKey.Key
         type: UndecidedLoadoutBackpackBoundUserInterface
 
-- type: entity
-  id: Legiontrooperloadoutkits
-  name: Undecided Legionary Loadout Kit
-  description: please only take one
-  parent: BaseItem
-  components:
-  - type: Sprite
-    sprite: _Nuclear14/Objects/Misc/kits.rsi
-    state: rifleman
-  - type: UndecidedLoadoutBackpack
-    transformAfterSelect: AlwaysPoweredWallLight
-    possibleSets:
-    - LegScoutSet
-    - LegRiflemanSet
-  - type: ActivatableUI
-    key: enum.UndecidedLoadoutBackpackUIKey.Key
-  - type: UserInterface
-    interfaces:
-      - key: enum.UndecidedLoadoutBackpackUIKey.Key
-        type: UndecidedLoadoutBackpackBoundUserInterface
-
 #MARK: Trooper Kits
 
 - type: UndecidedLoadoutBackpackSet
@@ -447,6 +426,30 @@
 # Dead Space start
 #MARK: Legion Kits
 
+- type: entity
+  id: Legiontrooperloadoutkits
+  name: Undecided Legionary Loadout Kit
+  description: please only take one
+  parent: BaseItem
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Objects/Misc/kits.rsi
+    state: rifleman
+  - type: UndecidedLoadoutBackpack
+    transformAfterSelect: AlwaysPoweredWallLight
+    possibleSets:
+    - LegScoutSet
+    - LegPatrolSet
+    - LegTribalSet
+    - LegRiflemanSet
+    - LegMedicusSet
+  - type: ActivatableUI
+    key: enum.UndecidedLoadoutBackpackUIKey.Key
+  - type: UserInterface
+    interfaces:
+      - key: enum.UndecidedLoadoutBackpackUIKey.Key
+        type: UndecidedLoadoutBackpackBoundUserInterface
+
 - type: UndecidedLoadoutBackpackSet
   id: LegScoutSet
   name: undecided-loadout-category-legion-scout-name
@@ -466,5 +469,35 @@
     state: rifleman
   content:
   - KitLegionRifleman
+
+- type: UndecidedLoadoutBackpackSet
+  id: LegPatrolSet
+  name: undecided-loadout-category-legion-patrol-name
+  description: undecided-loadout-category-legion-patrol-description
+  sprite:
+    sprite: _Nuclear14/Objects/Misc/kits.rsi
+    state: rifleman
+  content:
+  - KitLegionPatrol
+
+- type: UndecidedLoadoutBackpackSet
+  id: LegMedicusSet
+  name: undecided-loadout-category-legion-medicus-name
+  description: undecided-loadout-category-legion-medicus-description
+  sprite:
+    sprite: _Nuclear14/Objects/Misc/kits.rsi
+    state: rifleman
+  content:
+  - KitLegionMedicus
+
+- type: UndecidedLoadoutBackpackSet
+  id: LegTribalSet
+  name: undecided-loadout-category-legion-tribal-name
+  description: undecided-loadout-category-legion-tribal-description
+  sprite:
+    sprite: _Nuclear14/Objects/Misc/kits.rsi
+    state: rifleman
+  content:
+  - KitLegionTribal
 
 # Dead Space end

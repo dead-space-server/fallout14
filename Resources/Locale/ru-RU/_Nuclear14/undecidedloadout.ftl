@@ -215,8 +215,28 @@ undecided-loadout-category-legion-scout-description =
 undecided-loadout-category-legion-rifleman-name = Набор легионера
 undecided-loadout-category-legion-rifleman-description =
     Ящик со всем необходимым для рядового легионера.
-    Включает: 1 охотничью винтовку, 2 ящика патронов .308, 
-    2 метательных копья, 9мм пистолет,
+    Включает: 1 охотничью винтовку, ящик патронов .308, 
+    3 метательных копья, 9мм пистолет,
     9мм магазин, мачете и набор для выживания
+
+undecided-loadout-category-legion-partol-name = Набор легионера-патрульного
+undecided-loadout-category-legion-patrol-description =
+    Ящик со всем необходимым для патрулирования пустоши.
+    Включает: 1 ковбойский карабин, ящик патронов .44, 
+    3 метательных копья, магнум револьвер,
+    спидлоадер .44, мачете и набор для выживания
+
+undecided-loadout-category-legion-medicus-name = Набор медикуса
+undecided-loadout-category-legion-medicus-description =
+    Ящик с различными медикаментами для работы военного медикуса.
+    Включает: 1 охотничий револьвер, 3 спидлоадера калибра
+    45-70, 3 метательных копья, набор медикаментов,
+    мачете и набор для выживания
+
+undecided-loadout-category-legion-tribal-name = Набор ауксилия
+undecided-loadout-category-legion-tribal-description =
+    Ящик со снаряжением легионера-новобранца из племени.
+    Включает: 1 боевое копьё, 2 шприца "Винт", 
+    4 метательных копья, мачете и большой набор для выживания
 
 # Dead Space end

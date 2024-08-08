@@ -99,8 +99,12 @@ job-name-zetan = Зетанский похититель
 job-description-zetan = Во имя материнского корабля! Исследуйте местное население для выполнения ваших целей.
 # Легион
 job-name-leg-recruit =  Рекрут Легиона
+job-description-leg-recruit = Обучайтесь воевать с огнестрельным оружием вместе с Легионом.
 job-name-leg-legionary = Легионер
+job-description-leg-legionary = Служите офицерам и помогайте им выполнять задачи лагеря.
 job-name-leg-vexillarius = Вексилларий Легиона
+job-description-leg-vexillarius = Несите знамя Легиона в бою и выполняйте обязанности унтер-офицера.
 job-name-leg-decanus = Декан Легиона
+job-description-leg-decanus = Непосредственно командуйте легионерами в бою и обучайте их.
 # N14 Таймеры ролей #
 Survivor = Выживший

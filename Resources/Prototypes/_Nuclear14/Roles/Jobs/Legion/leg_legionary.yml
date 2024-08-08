@@ -7,7 +7,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Legion
-      time: 1 # 1 hour
+      time: 3600 # 1 hour
     - !type:WhitelistRequirement
   weight: 5
   startingGear: LegLegionaryGear

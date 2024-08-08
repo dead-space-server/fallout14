@@ -445,12 +445,12 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      500: Critical
-      600: Dead
+      800: Critical
+      900: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
-      250: 0.7
-      400: 0.5
+      450: 0.7
+      700: 0.5
   - type: DamageStateVisuals
     states:
       Alive:
@@ -467,16 +467,16 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Slash: 15
-        Structural: 5
-    range: 1.5
+        Slash: 30
+        Structural: 10
+    range: 2
   - type: MovementSpeedModifier
     baseWalkSpeed : 4
-    baseSprintSpeed : 5
+    baseSprintSpeed : 6
   - type: Hands
   - type: Puller
   - type: Tool
-    speed: 1.5
+    speed: 3
     qualities:
       - Prying
   - type: Prying
@@ -532,13 +532,13 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Slash: 22
-        Structural: 10
+        Slash: 45
+        Structural: 20
   - type: MobThresholds
     thresholds:
       0: Alive
-      750: Critical
-      900: Dead
+      1000: Critical
+      1200: Dead
   - type: DamageStateVisuals
     states:
       Alive:
@@ -591,8 +591,8 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Slash: 20
-        Structural: 10
+        Slash: 40
+        Structural: 20
 
 # Passive Animals
 - type: entity

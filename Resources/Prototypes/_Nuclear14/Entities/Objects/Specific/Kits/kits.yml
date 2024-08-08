@@ -689,7 +689,7 @@
   name: legionary-rifleman kit
   parent: KitBase
   id: KitLegionRifleman
-  description: A crate containing all a legionary needs to patrol the wasteland.
+  description: A crate containing all a legionary needs to fight the enemies of the Legion.
   components:
   - type: Sprite
     state: rifleman
@@ -703,9 +703,89 @@
       - id: N14MagazinePistol9mm
       - id: N14Machete
       - id: N14WastelandTribalJavelin
-        amount: 4
+        amount: 3
       - id: N14ChemicalSyringeAntidote
       - id: N14Bandage
+      - id: Flare
+        amount: 3
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  name: legionary patroling kit
+  parent: KitBase
+  id: KitLegionPatrol
+  description: A crate containing all a legionary needs to patrol the wasteland.
+  components:
+  - type: Sprite
+    state: rifleman
+  - type: Item
+    size: Huge
+  - type: SpawnItemsOnUse
+    items:
+      - id: N14WeaponLeverCarbine
+      - id: MagazineBox44
+      - id: N14WeaponRevolverMagnun
+      - id: SpeedLoader44
+      - id: N14Machete
+      - id: N14WastelandTribalJavelin
+        amount: 3
+      - id: N14ChemicalSyringeAntidote
+      - id: N14Bandage
+      - id: Flare
+        amount: 3
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  name: legionary medicus kit
+  parent: KitBase
+  id: KitLegionMedicus
+  description: A crate containing all a legionary battle medicus needs.
+  components:
+  - type: Sprite
+    state: rifleman
+  - type: Item
+    size: Huge
+  - type: SpawnItemsOnUse
+    items:
+      - id: N14WeaponHunterRevolver
+      - id: SpeedLoader45-70
+        amount: 4
+      - id: N14Machete
+      - id: N14WastelandTribalJavelin
+        amount: 3
+      - id: N14ChemicalSyringeAntidote
+      - id: N14Bandage
+        amount: 2
+      - id: Ointment
+        amount: 3
+      - id: Flare
+        amount: 3
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  name: legionary tribal kit
+  parent: KitBase
+  id: KitLegionTribal
+  description: A crate containing some basic weapons for a legionary recruit.
+  components:
+  - type: Sprite
+    state: rifleman
+  - type: Item
+    size: Huge
+  - type: SpawnItemsOnUse
+    items:
+      - id: N14WastelandTribalSpear
+      - id: N14Machete
+      - id: N14WastelandTribalJavelin
+        amount: 4
+      - id: N14Jet
+        amount: 2
+      - id: N14ChemicalSyringeAntidote
+      - id: N14Bandage
+        amount: 2
       - id: Flare
         amount: 3
     sound:

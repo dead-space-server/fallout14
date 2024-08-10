@@ -9,3 +9,9 @@
 
 - type: playTimeTracker
   id: JobLegDecanus
+
+- type: playTimeTracker
+  id: JobLegCenturion
+
+- type: playTimeTracker
+  id: JobLegFrumentarius

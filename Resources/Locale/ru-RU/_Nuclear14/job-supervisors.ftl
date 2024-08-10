@@ -19,3 +19,4 @@ job-supervisors-townsfolk = подчиняться мэру города.
 job-supervisors-leg-legionary = подчиняться декану, а затем вексилларию.
 job-supervisors-leg-vexillarius = подчиняться декану.
 job-supervisors-leg-decanus = подчиняться центуриону.
+job-supervisors-leg-centurion = вести Легион к доминации в регионе!

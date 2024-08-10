@@ -999,3 +999,21 @@
         Slash: 0.75
         Piercing: 0.6
         Heat: 0.7
+
+- type: entity
+  parent: ClothingOuterBase
+  id: N14ClothingOuterCenturionArmor
+  name: centurion armor
+  description: A suit of heavy armor that provides protection for a centurion of the Legion.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutlegcenturion.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutlegcenturion.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.5
+        Piercing: 0.4
+        Heat: 0.7

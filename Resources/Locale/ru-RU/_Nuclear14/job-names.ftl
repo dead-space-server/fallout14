@@ -106,5 +106,9 @@ job-name-leg-vexillarius = Вексилларий Легиона
 job-description-leg-vexillarius = Несите знамя Легиона в бою и выполняйте обязанности унтер-офицера.
 job-name-leg-decanus = Декан Легиона
 job-description-leg-decanus = Непосредственно командуйте легионерами в бою и обучайте их.
+job-name-leg-centurion = Центурион
+job-description-leg-centurion = Управляйте силами Легиона в регионе и выступайте как элитный боец.
+job-name-leg-frumentarius = Фрументарий
+job-description-leg-frumentarius = Вы - глаза и уши Цезаря. Выведайте и передайте в лагерь как можно больше данных.
 # N14 Таймеры ролей #
 Survivor = Выживший

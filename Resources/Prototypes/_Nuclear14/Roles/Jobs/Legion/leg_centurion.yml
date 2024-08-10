@@ -1,17 +1,17 @@
 - type: job
-  id: LegLegionary
+  id: LegCenturion
   setPreference: true
-  name: job-name-leg-legionary
-  description: job-description-leg-legionary
-  playTimeTracker: JobLegLegionary
+  name: job-name-leg-centurion
+  description: job-description-leg-centurion
+  playTimeTracker: JobLegCenturion
   requirements:
     - !type:DepartmentTimeRequirement
       department: Legion
-      time: 3600 # 1 hour
+      time: 72000 # 20 hours
   weight: 5
-  startingGear: LegLegionaryGear
-  icon: JobIconSecurityOfficer
-  supervisors: job-supervisors-leg-legionary
+  startingGear: LegCenturionGear
+  icon: JobIconDetective
+  supervisors: job-supervisors-leg-Centurion
   canBeAntag: false
   special:
   - !type:AddComponentSpecial
@@ -21,18 +21,18 @@
           - Legion
 
 - type: startingGear
-  id: LegLegionaryGear
+  id: LegCenturionGear
   equipment:
     jumpsuit: N14ClothingUniformLegion
-    shoes: N14ClothingShoesBlack
-    mask: N14ClothingMaskLegionRedBand
-    outerClothing: N14ClothingOuterLegionaryArmor
-    head: N14ClothingHeadHelmetLegionary
+    shoes: N14ClothingBootsCenturion
+    outerClothing: N14ClothingOuterCenturionArmor
+    head: N14ClothingHeadHelmetCenturion
     id: N14IDLegionSignaculumLegionary
     hands: N14ClothingHandsGlovesLegion
     back: N14ClothingBackpackMilitary
     pocket1: Legiontrooperloadoutkits
-    belt: ClothingBeltQuiverSpear
+    belt: ClothingBeltRevolverdesertfilled
+    mask: N14ClothingMaskCenturion
   innerClothingSkirt: N14ClothingUniformLegion #placeholder
   satchel: N14ClothingBackpackSatchelMilitary
   duffelbag: N14ClothingBackpackDuffelMilitary

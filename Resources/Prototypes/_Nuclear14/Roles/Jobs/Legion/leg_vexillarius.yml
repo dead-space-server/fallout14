@@ -8,7 +8,6 @@
     - !type:DepartmentTimeRequirement
       department: Legion
       time: 18000 # 5 hours
-    - !type:WhitelistRequirement
   weight: 5
   startingGear: LegVexillariusGear
   icon: JobIconDetective

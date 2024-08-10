@@ -138,6 +138,24 @@
         Piercing: 0.8
         Heat: 0.7
 
+- type: entity
+  parent: ClothingHeadBase
+  id: N14ClothingHeadHelmetCenturion
+  name: marine helmet
+  description: He-he funny red hair helmet.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Head/FalloutHelmets/centurion.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Head/FalloutHelmets/centurion.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.8
+        Heat: 0.7
+
 # Brotherhood of Steel
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal

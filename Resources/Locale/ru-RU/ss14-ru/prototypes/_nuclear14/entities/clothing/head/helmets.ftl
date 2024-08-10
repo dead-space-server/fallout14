@@ -60,3 +60,5 @@ ent-N14ClothingHeadHelmetLegionary = шлем легионера
     .desc = Кожаный шлем легионера, защищающий от холодного оружия и осколков.
 ent-N14ClothingHeadHelmetDecanus = шлем декана
     .desc = Кожанный шлем легионера, украшенный перьями. Тешит ваш комплекс превосходства.
+ent-N14ClothingHeadHelmetCenturion = шлем центуриона
+    .desc = Хе-хе смешной шлем с красной щёткой.

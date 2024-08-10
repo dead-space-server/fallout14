@@ -24,7 +24,6 @@
   - type: Sprite
     sprite: Structures/Wallmounts/Lighting/light_tube.rsi
     drawdepth: Overdoors
-    offset: 0, 1
     layers:
     - map: ["enum.PoweredLightLayers.Base"]
       state: base
@@ -71,7 +70,6 @@
       - !type:PlaySoundBehavior
         sound:
           collection: GlassBreak
-  - type: WallMount
   placement:
     mode: SnapgridCenter
     snap:

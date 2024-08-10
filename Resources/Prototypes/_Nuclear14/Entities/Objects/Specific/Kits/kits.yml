@@ -791,4 +791,66 @@
     sound:
       path: /Audio/Effects/unwrap.ogg
 
+#MARK: Legion spying kits
+
+- type: entity
+  name: legionary BoS spying kit
+  parent: KitBase
+  id: KitLegionBoSSpy
+  description: A crate containing some basic equipment of a BoS member.
+  components:
+  - type: Sprite
+    state: rifleman
+  - type: Item
+    size: Huge
+  - type: SpawnItemsOnUse
+    items:
+      - id: N14ClothingUniformJumpsuitBOSGreen
+      - id: N14ClothingBootsCombat
+      - id: N14ClothingHeadHatArmyCap
+      - id: N14ClothingOuterMidwestArmor
+      - id: N14IDBrotherhoodHolotagSquire
+      - id: N14WeaponLaserRifle
+      - id: N14WeaponLaserPistol
+      - id: N14PowerCellHigh
+      - id: N14ChemicalSyringeAntidote
+      - id: RadioHandheld
+      - id: N14Bandage
+        amount: 2
+      - id: Flare
+        amount: 3
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  name: legionary NCR spying kit
+  parent: KitBase
+  id: KitLegionNCRSpy
+  description: A crate containing some basic equipment of a NCR soldier.
+  components:
+  - type: Sprite
+    state: rifleman
+  - type: Item
+    size: Huge
+  - type: SpawnItemsOnUse
+    items:
+      - id: N14ClothingHeadHatNCRHelmetMetal
+      - id: N14ClothingBackpackNCR
+      - id: N14ClothingBootsLeather
+      - id: N14ClothingUniformNCR
+      - id: N14IDNCRDogtag
+      - id: N14ClothingOuterNCRVest
+      - id: N14WeaponService
+      - id: Magazine556Rifle
+        amount: 2
+      - id: N14CombatKnife
+      - id: N14ChemicalSyringeAntidote
+      - id: RadioHandheld
+      - id: N14Bandage
+        amount: 2
+      - id: Flare
+        amount: 3
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
 #Dead Space end

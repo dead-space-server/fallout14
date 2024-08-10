@@ -1,13 +1,17 @@
 - type: job
-  id: LegRecruit
+  id: LegFrumentarius
   setPreference: true
-  name: job-name-leg-recruit
-  description: job-description-leg-recruit
-  playTimeTracker: JobLegRecruit
+  name: job-name-leg-frumentarius
+  description: job-description-leg-frumentarius
+  playTimeTracker: JobLegFrumentarius
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Legion
+      time: 36000 # 10 hours
   weight: 5
-  startingGear: LegRecruitGear
-  icon: JobIconSecurityCadet
-  supervisors: job-supervisors-legionary
+  startingGear: LegFrumentariusGear
+  icon: JobIconDetective
+  supervisors: job-supervisors-leg-decanus
   canBeAntag: false
   special:
   - !type:AddComponentSpecial
@@ -17,18 +21,16 @@
           - Legion
 
 - type: startingGear
-  id: LegRecruitGear
+  id: LegFrumentariusGear
   equipment:
     jumpsuit: N14ClothingUniformLegion
     shoes: N14ClothingShoesBlack
-    mask: N14ClothingMaskLegionBlackBand
     outerClothing: N14ClothingOuterLegionaryArmor
-    head: N14ClothingHeadHelmetLegionary
-    id: N14IDLegionSignaculumRecruit
+    head: N14ClothingHeadHatVexillarius
+    id: N14IDLegionSignaculumDecanus
     hands: N14ClothingHandsGlovesLegion
     back: N14ClothingBackpackMilitary
-    pocket1: KitRecruit
-    belt: ClothingBeltQuiverSpear
+    pocket1: Legionspyloadoutkits
   innerClothingSkirt: N14ClothingUniformLegion #placeholder
   satchel: N14ClothingBackpackSatchelMilitary
   duffelbag: N14ClothingBackpackDuffelMilitary

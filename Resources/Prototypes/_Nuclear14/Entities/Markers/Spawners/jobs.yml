@@ -661,3 +661,26 @@
       - state: green
       - state: passenger # TODO make new icons
 
+- type: entity
+  id: N14SpawnPointLegFrumentarius
+  parent: N14SpawnPointWastelander
+  name: Legion frumentarius
+  components:
+  - type: SpawnPoint
+    job_id: LegFrumentarius
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger # TODO make new icons
+
+- type: entity
+  id: N14SpawnPointLegCenturion
+  parent: N14SpawnPointWastelander
+  name: Legion centurion
+  components:
+  - type: SpawnPoint
+    job_id: LegCenturion
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger # TODO make new icons

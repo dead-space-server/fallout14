@@ -34,3 +34,19 @@
   components:
     - type: Loadout
       prototypes: [LegVexillariusGear]
+
+- type: entity
+  parent: MobLegDecanus
+  id: MobLegCenturion
+  name: LegCenturion
+  components:
+    - type: Loadout
+      prototypes: [LegCenturionGear]
+
+- type: entity
+  parent: MobLegDecanus
+  id: MobLegFrumentarius
+  name: LegFrumentarius
+  components:
+    - type: Loadout
+      prototypes: [LegFrumentariusGear]

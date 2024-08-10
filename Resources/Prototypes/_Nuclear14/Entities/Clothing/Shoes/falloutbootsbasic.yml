@@ -63,3 +63,25 @@
     sprite: _Nuclear14/Clothing/Shoes/FalloutBoots/leatherboots.rsi
   - type: Clothing
     sprite: _Nuclear14/Clothing/Shoes/FalloutBoots/leatherboots.rsi
+
+#Deap Space start
+
+- type: entity
+  parent: ClothingShoesBase
+  id: N14ClothingBootsCenturion
+  name: metal greaves
+  description: Heavy-ass metal boots, providing good protection for your legs.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Shoes/FalloutBoots/centurion.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Shoes/FalloutBoots/centurion.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.8
+        Heat: 0.7
+
+#Dead Space end

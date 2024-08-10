@@ -239,4 +239,18 @@ undecided-loadout-category-legion-tribal-description =
     Включает: 1 боевое копьё, 2 шприца "Винт", 
     4 метательных копья, мачете и большой набор для выживания
 
+undecided-loadout-category-legion-ncr-spy-name = Набор шпиона НКР
+undecided-loadout-category-legion-ncr-spy-description =
+    Ящик со снаряжением для внедрения в армию НКР.
+    Включает: Униформу армии НКР, кожаный жилет НКР,
+    служебную винтовку, 2 магазина под патрон 5.56,
+    боевой нож, рацию и набор для выживания.
+
+undecided-loadout-category-legion-bos-spy-name = Набор шпиона БС
+undecided-loadout-category-legion-bos-spy-description =
+    Ящик со снаряжением для внедрения в Братство Стали.
+    Включает: Униформу Братства Стали, боевую броню,
+    лазерную винтовку, 1 микроядерную батарею, лазерный пистолет,
+    рацию и набор для выживания.
+
 # Dead Space end

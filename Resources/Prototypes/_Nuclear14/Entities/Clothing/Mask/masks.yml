@@ -60,3 +60,24 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+
+- type: entity
+  parent: ClothingMaskBase
+  id: N14ClothingMaskCenturion
+  name: steel centurion mask
+  description: A steel mask with a human's face form.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Mask/centurion.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Mask/centurion.rsi
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon

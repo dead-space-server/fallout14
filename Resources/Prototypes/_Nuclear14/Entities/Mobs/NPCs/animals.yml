@@ -1,5 +1,5 @@
 # See basemob.yml for parent entities
-
+#MARK: Molerat
 - type: entity
   name: molerat
   id: N14MobMolerat
@@ -39,11 +39,13 @@
       Dead:
         Base: dead
   - type: MeleeWeapon
+    altDisarm: false
     hidden: true
     soundHit:
         path: /Audio/Effects/bite.ogg
-    angle: 0
+    angle: 60
     animation: WeaponArcBite
+    wideAnimation: WeaponArcBite
     damage:
       groups:
         Brute: 3
@@ -62,6 +64,7 @@
     tags:
     - Molerat
 
+#MARK: Feral Dog
 - type: entity
   name: feral dog
   id: N14MobDogFeral
@@ -101,11 +104,13 @@
       Dead:
         Base: dead
   - type: MeleeWeapon
+    altDisarm: false
     hidden: true
     soundHit:
         path: /Audio/Effects/bite.ogg
-    angle: 0
+    angle: 60
     animation: WeaponArcBite
+    wideAnimation: WeaponArcBite
     damage:
       groups:
         Brute: 5
@@ -124,6 +129,7 @@
     tags:
     - DogFeral
 
+#MARK: Gecko
 - type: entity
   name: gecko
   id: N14MobGecko
@@ -163,11 +169,13 @@
       Dead:
         Base: dead
   - type: MeleeWeapon
+    altDisarm: false
     hidden: true
     soundHit:
         path: /Audio/Effects/bite.ogg
-    angle: 0
+    angle: 60
     animation: WeaponArcBite
+    wideAnimation: WeaponArcBite
     damage:
       types:
         Slash: 5
@@ -193,6 +201,7 @@
     tags:
     - Gecko
 
+#MARK: Nightstalker Cub
 - type: entity
   name: nightstalker cub
   id: N14MobNightstalkerCub
@@ -241,11 +250,13 @@
       Dead:
         Base: dead
   - type: MeleeWeapon
+    altDisarm: false
     hidden: true
     soundHit:
         path: /Audio/Effects/bite.ogg
-    angle: 0
+    angle: 60
     animation: WeaponArcBite
+    wideAnimation: WeaponArcBite
     damage:
       groups:
         Brute: 1
@@ -254,10 +265,28 @@
   - type: SolutionContainerManager
     solutions:
       melee:
+        maxVol: 2.5
         reagents:
-        - ReagentId: Toxin
+        - ReagentId: NightstalkerVenom
           Quantity: 2.5
+      udder:
+        maxVol: 5
+        reagents:
+        - ReagentId: NightstalkerVenom
+          Quantity: 5
+  - type: Udder
+    reagentId: NightstalkerVenom
+    quantityPerUpdate: 1
+    growthDelay: 30
+    hungerUsage: 2
+  - type: SolutionRegeneration
+    solution: melee
+    generated:
+      reagents:
+      - ReagentId: NightstalkerVenom
+        Quantity: 0.1
 
+#MARK: Nightstalker
 - type: entity
   name: nightstalker
   id: N14MobNightstalker
@@ -310,11 +339,13 @@
       Dead:
         Base: dead
   - type: MeleeWeapon
+    altDisarm: false
     hidden: true
     soundHit:
         path: /Audio/Effects/bite.ogg
-    angle: 0
+    angle: 60
     animation: WeaponArcBite
+    wideAnimation: WeaponArcBite
     damage:
       groups:
         Brute: 3
@@ -323,9 +354,29 @@
   - type: SolutionContainerManager
     solutions:
       melee:
+        maxVol: 10
         reagents:
-        - ReagentId: Toxin
-          Quantity: 5
+        - ReagentId: NightstalkerVenom
+          Quantity: 10
+      udder:
+        maxVol: 10
+        reagents:
+        - ReagentId: NightstalkerVenom
+          Quantity: 10
+  - type: Udder
+    reagentId: NightstalkerVenom
+    quantityPerUpdate: 1
+    growthDelay: 30
+    hungerUsage: 2
+  - type: SolutionRegeneration
+    solution: melee
+    generated:
+      reagents:
+      - ReagentId: NightstalkerVenom
+        Quantity: 0.25
+  - type: MeleeChemicalInjector
+    solution: melee
+    transferAmount: 1.5
   - type: Reproductive
     breedChance: 0.05
     birthPopup: reproductive-laid-egg-popup
@@ -344,6 +395,7 @@
     tags:
     - Nightstalker
 
+#MARK: Yao Guai
 - type: entity
   name: yao guai
   id: N14MobYaoguai
@@ -384,11 +436,13 @@
       Dead:
         Base: dead
   - type: MeleeWeapon
+    altDisarm: false
     hidden: true
     soundHit:
         path: /Audio/Effects/bite.ogg
-    angle: 0
+    angle: 60
     animation: WeaponArcBite
+    wideAnimation: WeaponArcBite
     damage:
       types:
         Slash: 15
@@ -413,7 +467,8 @@
     tags:
     - Yaoguai
 
-# Scaley Animals
+#MARK:Scaley Animals
+#MARK: Deathclaw
 - type: entity
   name: deathclaw
   id: N14MobDeathclaw
@@ -460,11 +515,13 @@
       Dead:
         Base: dead
   - type: MeleeWeapon
+    altDisarm: false
     hidden: true
     soundHit:
       collection: AlienClaw
-    angle: 0
+    angle: 60
     animation: WeaponArcClaw
+    wideAnimation: WeaponArcClaw
     damage:
       types:
         Slash: 30
@@ -512,6 +569,7 @@
     tags:
     - Deathclaw
 
+#MARK: Albino Deathclaw
 - type: entity
   name: albino deathclaw
   id: N14MobDeathclawAlbino
@@ -525,11 +583,13 @@
       state: deathclawalbino
       sprite: _Nuclear14/Mobs/Animals/deathclawalbino.rsi
   - type: MeleeWeapon
+    altDisarm: false
     hidden: true
     soundHit:
       collection: AlienClaw
-    angle: 0
+    angle: 60
     animation: WeaponArcClaw
+    wideAnimation: WeaponArcClaw
     damage:
       types:
         Slash: 45
@@ -571,6 +631,7 @@
       Dead:
         Base: dead
 
+#MARK: Metal Deathclaw
 - type: entity
   name: metal deathclaw
   id: N14MobDeathclawMetal
@@ -584,17 +645,20 @@
       state: deathclawmetal
       sprite: _Nuclear14/Mobs/Animals/deathclawmetal.rsi
   - type: MeleeWeapon
+    altDisarm: false
     hidden: true
     soundHit:
       collection: AlienClaw
-    angle: 0
+    angle: 60
     animation: WeaponArcClaw
+    wideAnimation: WeaponArcClaw
     damage:
       types:
         Slash: 40
         Structural: 20
 
-# Passive Animals
+#MARK: Passive Animals
+#MARK: Brahmin
 - type: entity
   name: brahmin
   parent: MobCow
@@ -633,9 +697,9 @@
           Quantity: 30
   - type: Udder
     reagentId: N14MilkBrahmin
-    targetSolution: udder
-    quantity: 25
-    updateRate: 30
+    quantityperUpdate: 25
+    growthDelay: 60
+    hungerUsage: 10
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: WastelandAnimal
@@ -659,6 +723,7 @@
       maxAmount: 1
   - type: ReproductivePartner
 
+#MARK: Bighorner
 - type: entity
   name: bighorner
   parent: N14MobBrahmin
@@ -683,7 +748,20 @@
   - type: Butcherable
     spawned:
     - id: N14FoodMeatBighorner
-      amount: 5
+      amount: 4
+  - type: MeleeWeapon
+    altDisarm: false
+    hidden: true
+    soundHit:
+      collection: MetalThud
+    angle: 60
+    animation: WeaponArcClaw
+    wideAnimation: WeaponArcClaw
+    damage:
+      types:
+        Blunt: 8
+        Slash: 2
+        Structural: 8
   - type: SolutionContainerManager
     solutions:
       udder:
@@ -693,9 +771,9 @@
           Quantity: 30
   - type: Udder
     reagentId: N14MilkBighorner
-    targetSolution: udder
-    quantity: 25
-    updateRate: 30
+    quantityperUpdate: 25
+    growthDelay: 90
+    hungerUsage: 7.5
   - type: Reproductive
     breedChance: 0.05
     birthPopup: reproductive-birth-popup
@@ -708,6 +786,7 @@
       maxAmount: 1
   - type: ReproductivePartner
 
+#MARK: Radstag
 - type: entity
   name: radstag
   parent: N14MobBrahmin
@@ -742,9 +821,9 @@
           Quantity: 30
   - type: Udder
     reagentId: N14MilkRadstag
-    targetSolution: udder
-    quantity: 25
-    updateRate: 30
+    quantityperUpdate: 10
+    growthDelay: 40
+    hungerUsage: 5
   - type: Reproductive
     breedChance: 0.05
     birthPopup: reproductive-birth-popup
@@ -757,6 +836,7 @@
       maxAmount: 1
   - type: ReproductivePartner
 
+#MARK: Chicken
 - type: entity
   parent: MobChicken
   id: N14MobChicken
@@ -798,6 +878,7 @@
     eggSpawn:
     - id: N14FoodEggChicken
 
+#MARK: Iguana
 - type: entity
   parent: N14MobBaseSimple
   id: N14MobIguana

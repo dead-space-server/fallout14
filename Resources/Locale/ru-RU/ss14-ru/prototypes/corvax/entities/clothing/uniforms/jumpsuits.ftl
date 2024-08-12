@@ -6,3 +6,10 @@ ent-ClothingUniformJumpsuitCentcomOfficerBlack = униформа офицера
     .desc = Чёрная униформа Офицера Специальных Операций, ничего такого. Хотя... Если у вас есть время читать это, то уже поздно...
 ent-ClothingUniformJumpsuitCentcomAdmiral = униформа адмирала
     .desc = Униформа, которую носят офицеры в звании адмирала флота Nanotrasen.
+# Corvax N14
+ent-N14ClothingUniformJumpsuitCaesar = туника цезаря
+    .desc = Pax Romana!
+ent-N14ClothingUniformJumpsuitLegionnaire = туника легионера
+    .desc = Туника легионеров в стандартной расцветке.
+ent-N14ClothingUniformJumpsuitLegionnaireOther = туника легионера
+    .desc = Юбка легионера...

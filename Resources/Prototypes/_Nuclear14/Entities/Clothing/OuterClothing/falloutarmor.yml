@@ -583,7 +583,7 @@
       coefficients:
         Blunt: 0.6
         Slash: 0.6
-        Piercing: 0.6
+        Piercing: 0.55
         Heat: 0.6
 
 - type: entity
@@ -601,7 +601,7 @@
       coefficients:
         Blunt: 0.6
         Slash: 0.6
-        Piercing: 0.6
+        Piercing: 0.5
         Heat: 0.6
 
 #MARK: Veteran

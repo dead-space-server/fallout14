@@ -4,6 +4,7 @@
   - WastelandInsect
   - WastelandAnimal
   - Raider
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: BrotherhoodMidwest
@@ -11,7 +12,7 @@
   - WastelandInsect
   - WastelandAnimal
   - Raider
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: BrotherhoodMidwestSecureArea
@@ -28,7 +29,7 @@
   - WastelandAnimal
   - WastelandInsect
   - Raider
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: BrotherhoodWashington
@@ -36,7 +37,7 @@
   - WastelandInsect
   - WastelandAnimal
   - Raider
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: BrotherhoodWashingtonSecureArea
@@ -53,7 +54,7 @@
   - WastelandAnimal
   - WastelandInsect
   - Raider
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: CaravanCompany
@@ -61,6 +62,7 @@
   - WastelandInsect
   - WastelandAnimal
   - Raider
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: CaravanCompanySecureArea
@@ -77,7 +79,7 @@
   - WastelandAnimal
   - WastelandInsect
   - Raider
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: NCR
@@ -86,7 +88,7 @@
   - WastelandInsect
   - WastelandAnimal
   - Raider
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: NCRSecureArea
@@ -102,7 +104,7 @@
   - WastelandAnimal
   - WastelandInsect
   - Raider
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: Rangers
@@ -113,17 +115,19 @@
   - WastelandInsect
   - WastelandAnimal
   - Raider
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: Townsfolk
   hostile:
   - Raider
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: Tribal
   hostile:
   - Raider
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: Vault
@@ -132,7 +136,7 @@
   - WastelandAnimal
   - WastelandInsect
   - Raider
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: VaultSecureArea
@@ -149,7 +153,7 @@
   - WastelandAnimal
   - WastelandInsect
   - Raider
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: Zetan
@@ -166,7 +170,7 @@
   - WastelandAnimal
   - WastelandInsect
   - Raider
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: Raider
@@ -185,7 +189,7 @@
   - WastelandInsect
   - WastelandAnimal
   - Zetan
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: WastelandAnimal
@@ -203,7 +207,7 @@
   - Vault
   - WastelandInsect
   - Raider
-  - Legion
+  - CaesarLegion #Corvax-Legion
 
 - type: npcFaction
   id: WastelandInsect
@@ -221,36 +225,4 @@
   - Vault
   - WastelandAnimal
   - Raider
-  - Legion
-
-- type: npcFaction
-  id: LegionSecureArea
-  hostile:
-  - Wastelander
-  - BrotherhoodMidwest
-  - BrotherhoodWashington
-  - CaravanCompany
-  - Townsfolk
-  - Tribal
-  - Vault
-  - Zetan
-  - WastelandAnimal
-  - WastelandInsect
-  - Raider
-  - NCR
-
-- type: npcFaction
-  id: Legion
-  hostile:
-  - Wastelander
-  - BrotherhoodMidwest
-  - BrotherhoodWashington
-  - CaravanCompany
-  - Townsfolk
-  - Tribal
-  - Vault
-  - Zetan
-  - WastelandAnimal
-  - WastelandInsect
-  - Raider
-  - NCR
+  - CaesarLegion #Corvax-Legion

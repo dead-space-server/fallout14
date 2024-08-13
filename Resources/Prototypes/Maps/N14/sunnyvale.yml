@@ -53,9 +53,10 @@
             BoSMidKnight: [ 2, 3 ]
             BoSMidScribe: [ 1, 2 ]
             BoSMidSquire: [ 2, 2 ]
-            CaesarLegionCenturion: [ 0, 1 ] # Corvax-Legion
-            CaesarLegionFrumentary: [ 0, 1 ] # Corvax-Legion
-            CaesarLegionDean: [ 0, 2 ] # Corvax-Legion
-            CaesarLegionLegionnaireVeteran: [ 0, 3 ] # Corvax-Legion
-            CaesarLegionLegionnaireWarrior: [ 0, 4 ] # Corvax-Legion
-            CaesarLegionLegionnaireRecruit: [ 0, 6 ] # Corvax-Legion
+            LegRecruit: [ 3, 5 ]
+            LegLegionary: [ 4, 7 ]
+            LegDecanus: [ 2, 2 ]
+            LegVexillarius: [ 1, 2 ]
+            LegFrumentarius: [ 1, 1 ]
+            LegCenturion: [ 1, 1 ]
+
